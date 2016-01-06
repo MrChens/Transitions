@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		B608CE741C321FDC0001A10A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE731C321FDC0001A10A /* main.m */; };
 		B608CE771C321FDC0001A10A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE761C321FDC0001A10A /* AppDelegate.m */; };
-		B608CE7A1C321FDC0001A10A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE791C321FDC0001A10A /* ViewController.m */; };
-		B608CE7D1C321FDC0001A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B608CE7B1C321FDC0001A10A /* Main.storyboard */; };
+		B608CE7A1C321FDC0001A10A /* MCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE791C321FDC0001A10A /* MCMainViewController.m */; };
 		B608CE7F1C321FDC0001A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B608CE7E1C321FDC0001A10A /* Assets.xcassets */; };
 		B608CE821C321FDC0001A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B608CE801C321FDC0001A10A /* LaunchScreen.storyboard */; };
+		B608CE8B1C3223350001A10A /* MCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE8A1C3223350001A10A /* MCNavigationViewController.m */; };
+		B608CE8E1C3224130001A10A /* MCRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE8D1C3224130001A10A /* MCRedViewController.m */; };
+		B608CE911C3224230001A10A /* MCYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE901C3224230001A10A /* MCYellowViewController.m */; };
+		B608CE961C32428C0001A10A /* BouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B608CE951C32428C0001A10A /* BouncePresentAnimation.m */; };
+		B608CE981C3242FD0001A10A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B608CE971C3242FD0001A10A /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,21 @@
 		B608CE731C321FDC0001A10A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B608CE751C321FDC0001A10A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B608CE761C321FDC0001A10A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B608CE781C321FDC0001A10A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B608CE791C321FDC0001A10A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B608CE7C1C321FDC0001A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B608CE781C321FDC0001A10A /* MCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMainViewController.h; sourceTree = "<group>"; };
+		B608CE791C321FDC0001A10A /* MCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMainViewController.m; sourceTree = "<group>"; };
 		B608CE7E1C321FDC0001A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B608CE811C321FDC0001A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B608CE831C321FDC0001A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B608CE891C3223350001A10A /* MCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNavigationViewController.h; sourceTree = "<group>"; };
+		B608CE8A1C3223350001A10A /* MCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNavigationViewController.m; sourceTree = "<group>"; };
+		B608CE8C1C3224130001A10A /* MCRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRedViewController.h; sourceTree = "<group>"; };
+		B608CE8D1C3224130001A10A /* MCRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRedViewController.m; sourceTree = "<group>"; };
+		B608CE8F1C3224230001A10A /* MCYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCYellowViewController.h; sourceTree = "<group>"; };
+		B608CE901C3224230001A10A /* MCYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCYellowViewController.m; sourceTree = "<group>"; };
+		B608CE931C3240B50001A10A /* MCTransitions_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTransitions_Prefix.pch; sourceTree = "<group>"; };
+		B608CE941C32428C0001A10A /* BouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentAnimation.h; sourceTree = "<group>"; };
+		B608CE951C32428C0001A10A /* BouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentAnimation.m; sourceTree = "<group>"; };
+		B608CE971C3242FD0001A10A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B608CE981C3242FD0001A10A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,7 @@
 		B608CE661C321FDC0001A10A = {
 			isa = PBXGroup;
 			children = (
+				B608CE971C3242FD0001A10A /* UIKit.framework */,
 				B608CE711C321FDC0001A10A /* MCTransitions */,
 				B608CE701C321FDC0001A10A /* Products */,
 			);
@@ -60,13 +75,20 @@
 			children = (
 				B608CE751C321FDC0001A10A /* AppDelegate.h */,
 				B608CE761C321FDC0001A10A /* AppDelegate.m */,
-				B608CE781C321FDC0001A10A /* ViewController.h */,
-				B608CE791C321FDC0001A10A /* ViewController.m */,
-				B608CE7B1C321FDC0001A10A /* Main.storyboard */,
 				B608CE7E1C321FDC0001A10A /* Assets.xcassets */,
 				B608CE801C321FDC0001A10A /* LaunchScreen.storyboard */,
 				B608CE831C321FDC0001A10A /* Info.plist */,
 				B608CE721C321FDC0001A10A /* Supporting Files */,
+				B608CE891C3223350001A10A /* MCNavigationViewController.h */,
+				B608CE8A1C3223350001A10A /* MCNavigationViewController.m */,
+				B608CE781C321FDC0001A10A /* MCMainViewController.h */,
+				B608CE791C321FDC0001A10A /* MCMainViewController.m */,
+				B608CE8C1C3224130001A10A /* MCRedViewController.h */,
+				B608CE8D1C3224130001A10A /* MCRedViewController.m */,
+				B608CE8F1C3224230001A10A /* MCYellowViewController.h */,
+				B608CE901C3224230001A10A /* MCYellowViewController.m */,
+				B608CE941C32428C0001A10A /* BouncePresentAnimation.h */,
+				B608CE951C32428C0001A10A /* BouncePresentAnimation.m */,
 			);
 			path = MCTransitions;
 			sourceTree = "<group>";
@@ -74,6 +96,7 @@
 		B608CE721C321FDC0001A10A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B608CE931C3240B50001A10A /* MCTransitions_Prefix.pch */,
 				B608CE731C321FDC0001A10A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,7 +161,6 @@
 			files = (
 				B608CE821C321FDC0001A10A /* LaunchScreen.storyboard in Resources */,
 				B608CE7F1C321FDC0001A10A /* Assets.xcassets in Resources */,
-				B608CE7D1C321FDC0001A10A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B608CE7A1C321FDC0001A10A /* ViewController.m in Sources */,
+				B608CE7A1C321FDC0001A10A /* MCMainViewController.m in Sources */,
 				B608CE771C321FDC0001A10A /* AppDelegate.m in Sources */,
+				B608CE961C32428C0001A10A /* BouncePresentAnimation.m in Sources */,
+				B608CE8B1C3223350001A10A /* MCNavigationViewController.m in Sources */,
+				B608CE8E1C3224130001A10A /* MCRedViewController.m in Sources */,
+				B608CE911C3224230001A10A /* MCYellowViewController.m in Sources */,
 				B608CE741C321FDC0001A10A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +184,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B608CE7B1C321FDC0001A10A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B608CE7C1C321FDC0001A10A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B608CE801C321FDC0001A10A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -263,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MCTransitions/MCTransitions_Prefix.pch;
 				INFOPLIST_FILE = MCTransitions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinanetcenter.MCTransitions;
@@ -274,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MCTransitions/MCTransitions_Prefix.pch;
 				INFOPLIST_FILE = MCTransitions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinanetcenter.MCTransitions;
@@ -300,6 +320,7 @@
 				B608CE881C321FDC0001A10A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
